@@ -34,7 +34,7 @@ test {
 
 task buildZip(type: Zip) {
 	from layout.buildDirectory.dir('native/nativeCompile')
-    from "application.properties"
+	from "application.properties"
 }
 
 // nativeCompile.dependsOn buildZip
