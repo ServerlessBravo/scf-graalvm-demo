@@ -59,4 +59,5 @@ Sample Output:
 
 ### Check the log
 
+
 ![SCF Logs](./imgs/graalvm-04.png)
