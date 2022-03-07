@@ -3,6 +3,8 @@
 
 ## Build
 
+Notes: **should run on linux based system considering the compatibility**
+
 ```bash
 gradle nativeCompile
 ```
@@ -35,15 +37,15 @@ build/distributions/
 
 ### Create Function
 
-![Create Function](./imgs/graalvm-01.png)
+![Create Function](https://user-images.githubusercontent.com/251222/157045841-c29289bd-b4db-437e-bb0b-64cea82462be.png)
 
 ### Configure `scf_bootstrap`
 
-![Configure](./imgs/graalvm-02.png)
+![Configure](https://user-images.githubusercontent.com/251222/157045824-9268f861-00e2-4c25-b073-764d4bfda938.png)
 
 ### Deploy and Check APIGateway Address
 
-![APIGW](./imgs/graalvm-03.png)
+![APIGW](https://user-images.githubusercontent.com/251222/157045843-46d344e1-0db8-41a7-b3ce-185b15afb986.png)
 
 ### Trigger Function
 
@@ -60,4 +62,4 @@ Sample Output:
 ### Check the log
 
 
-![SCF Logs](./imgs/graalvm-04.png)
+![SCF Logs](https://user-images.githubusercontent.com/251222/157045850-a2b6915c-092c-4b4a-a1cb-f4af8f7dd108.png)
